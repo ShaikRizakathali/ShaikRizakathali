@@ -1,80 +1,72 @@
 <h1 align="center">Hi 👋, I'm Shaikh Rizakath Ali</h1>
-<h3 align="center">☁️ Aspiring DevOps Engineer | Automating Infrastructure, Building Scalable Systems</h3>
+<h3 align="center">☁️ Aspiring DevOps Engineer | Automating Infrastructure, One Pipeline at a Time</h3>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=00FFA3&center=true&vCenter=true&width=600&lines=Building+CI%2FCD+pipelines;Scripting+with+Python+%26+Bash;Containerizing+apps+with+Docker;Learning+SaaS+delivery+models" alt="Typing SVG" />
-</p>
+<tool_call>
+{"name": "search_image", "arguments": {"prompt": "DevOps SVG"}}
+</tool_call>
 
 ---
 
 ### 🌟 About Me
-- 🎓 Pursuing **DevOps Engineering** via **Tutedude** & **Simplilearn**  
+- 🎓 Learning **DevOps Engineering** (Tutedude & Simplilearn)  
 - 💻 Passionate about **coding**, **automation**, and **system reliability**  
-- 🎮 Love **gaming** — especially strategy & co-op titles (yes, I treat infra like a raid boss!)  
-- 📚 Currently deepening my skills in:  
-  - **Git & GitHub workflows**  
-  - **SaaS fundamentals**: multi-tenancy, API integrations, CI/CD for SaaS products  
-  - **Python scripting** for DevOps automation  
-  - Cloud (AWS), Docker, Kubernetes, Jenkins, Terraform  
+- 🎮 Also love **gaming** — because debugging infra feels like a boss fight!  
+- 📚 Currently mastering core DevOps pillars: CI/CD, Cloud, Linux, Databases, Networking, and Python scripting  
 
 ---
 
-### 🛠️ Tech Stack & Tools
-<p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/>
-  </a>
-  <a href="https://git-scm.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50"/>
-  </a>
-  <a href="https://www.linux.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="50" height="50"/>
-  </a>
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="50" height="50"/>
-  </a>
-  <a href="https://kubernetes.io" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="50" height="50"/>
-  </a>
-  <a href="https://www.jenkins.io" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="50" height="50"/>
-  </a>
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="50" height="50"/>
-  </a>
-  <a href="https://www.terraform.io" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="terraform" width="50" height="50"/>
-  </a>
-  <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="50" height="50"/>
-  </a>
-  <a href="https://spring.io" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="50" height="50"/>
-  </a>
-</p>
+### 🛠️ DevOps Knowledge Map
 
-> 🔧 **Python**: Core tool for automation, API integrations, and tool scripting.  
-> 📦 **SaaS Mindset**: Learning how scalable, secure, and observable SaaS products are delivered — from git push to production.
+#### 🔁 CI/CD  
+CircleCI • Jenkins • GitHub Actions • GitLab CI • ArgoCD  
+> *Sample Q: Name a few CI/CD tools?* → **Jenkins, GitHub Actions, GitLab CI, ArgoCD, CircleCI**
 
----
+#### 🐳 Containerization  
+Docker (multi-stage builds, tagging) • Kubernetes (EKS/AKS/GKE) • Microservices  
+> *Q: How to share data between Docker stages?*  
+> → Use `--from=<stage-alias>` in multi-stage builds.
 
-### 📂 Featured Project
-#### 🚀 [Chat-Application](https://github.com/ShaikRizakathali/Chat-Application)
-> A RESTful chat API built with **Spring Boot (Java)**  
-- ✅ Clean architecture with controllers, services, DTOs  
-- 🛠️ Currently enhancing it with:  
-  - Docker containerization  
-  - GitHub Actions CI  
-  - AWS deployment (ECS/EKS roadmap)  
-- 🎯 *Goal*: Turn it into a mini SaaS-style demo (multi-user, auth, metrics)
+#### 🐧 Linux & Scripting  
+Bash scripting • CLI tools (`curl`, `wget`, `ssh`, `ps`, `grep`, `awk`, `sed`)  
+> *Q: Check if a website is up?*  
+> → `curl -fIs http://example.com && echo "UP" || echo "DOWN"`  
+> *Q: Make & schedule a script?*  
+> → `chmod +x script.sh` + `crontab -e` → `0 8 * * * /path/to/script.sh`
 
-*(Next: Building a Python-based DevOps utility toolkit!)*
+#### 🗄️ Databases  
+✅ **SQL**: PostgreSQL, MySQL  
+✅ **NoSQL**: MongoDB, Redis, Elasticsearch  
+> *Q: Preferred DB?* → **SQL for structured data (Postgres!), NoSQL for scale/flexibility**  
+> *Q: Connect to Postgres via CLI?* → `psql -h <host> -U <user> -d <db> -p <port>`  
+> *Q: Insert CSV → Postgres (Python)?* → `pandas.read_csv()` + `psycopg2` or `sqlalchemy`
+
+#### ☁️ Cloud (AWS • Azure • GCP)  
+- **IaC**: Terraform  
+- **Services**: VMs, DBs (RDS), Storage (S3/Blob), DNS, Container Runtimes (ECS/ACI/Cloud Run), Kubernetes (EKS/AKS/GKE), ETL (Glue)  
+> *Q: Run Docker on cloud?* → AWS (ECS/EKS), Azure (ACI/AKS), GCP (Cloud Run/GKE)
+
+#### 🌐 Networking  
+DNS (A vs CNAME) • SSH (`.pem`/`.ppk`) • Reverse Proxy (Nginx) • SSL/TLS • Ingress • Message Queues (RabbitMQ, SQS) • IPv4 vs IPv6  
+> *Q: A vs CNAME?* → **A → IP**, **CNAME → another domain**  
+> *Q: What’s a reverse proxy?* → Single entrypoint routing to multiple backends (e.g., Nginx)  
+> *Q: Can VMs in different regions talk?* → **Only via VPC peering / VPN Gateway**
+
+#### 🐍 Programming  
+**Python** (primary for automation, scripting, data pipelines)  
+> *Q: List comprehensions?* → Concise list transforms: `[x*2 for x in range(5) if x%2==0]`
+
+#### 🧵 Task Queues & Async  
+Celery (Python) • Redis • RabbitMQ • Kafka • AWS SQS  
+> *Q: Implement a task queue?* → Use Celery + Redis, or cloud-native (SQS/SNS)
+
+#### 📊 Data & ETL  
+Pandas • PySpark • AWS Glue • Hadoop (basics)
 
 ---
 
 ### 📫 Let’s Connect
 📧 **Email**: [shaikhrizakathali@gmail.com](mailto:shaikhrizakathali@gmail.com)  
-💬 Open to collaboration, feedback, and DevOps learning opportunities!
+💬 Open to collaboration, mentorship, and DevOps opportunities!
 
 <p align="left">
   <a href="mailto:shaikhrizakathali@gmail.com">
@@ -93,4 +85,4 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaikRizakathali&layout=compact&theme=radical&langs_count=6" />
 </p>
 
-> 🌱 *"Infrastructure as Code is poetry — every line should do meaningful work."*
+> 🌱 *"Good DevOps isn’t about avoiding failure — it’s about failing fast, learning faster."*
